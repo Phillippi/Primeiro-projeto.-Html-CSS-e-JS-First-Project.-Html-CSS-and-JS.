@@ -1,0 +1,304 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+ul{
+    padding: 0px!important;
+}
+.menu-principal{
+    width: 100%;
+    background-color: #252323;
+    height: 60px;
+}
+main, .content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo{
+    float: left;
+    width: 70%;
+    padding: 16px;
+}
+.redes-sociais ul li {
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+}
+.redes-sociais {
+    width: 25%;
+    float: right;
+}
+.header-2 {
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+    
+}
+.menu-urls{
+    border-bottom: 3px solid #efefef;
+    height: 80px;
+
+}
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 48px;
+}
+.menu ul li:hover{
+    border-bottom: 3px solid #00bac6;
+}
+.menu ul li a:hover {
+    color: #00bac6;
+    
+}
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu {
+    width: 70%;
+    float: left;
+}
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+.busca input {
+    background-image: url(../img/busca.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 36px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 10px;
+    border: 1px solid #d6d6d6;
+    
+}
+.col-100 {
+    
+    width: 100%;
+    float: left;
+    position: relative;
+}
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/setaesq.png);
+    top: 35%;
+    left: 200;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/setadir.png);
+    top: 35%;
+    right: 240;
+    }
+.slick-dots li button {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 25px;
+    z-index: 9;
+    background: transparent;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url(../img/elipse.png);
+    
+    
+}
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 43%;
+    top: 600px;
+}
+li.slick-active button {
+    background-image: url(../img/elipseativa.png);
+}
+.slick-dots li {
+    padding-left: 30px;
+    display: inline-block;
+}
+.texto-destaque {
+    text-align: center;
+    padding-left: 25px;
+}
+.texto-destaque strong {
+    color: #646464;
+}
+.texto-destaque h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #818181;
+}
+.texto-destaque p {
+    font-size: 15px;
+    color: #9a9a9a;
+}
+.col-3 {
+    padding-left: 15px;
+    padding-right:15px ;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+.bloco-texto {
+    margin-top: 3em;
+}
+h3 {
+    font-weight: normal!important;
+}
+.bloco-imagens-texto {
+    background-color: #eeeeee;
+}
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: white;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background-color: #eeeeee;  
+}
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.col-4 img {
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 1em;
+    vertical-align: middle;
+}
+/*.col-4 img:hover {
+    margin-top: 10px;
+    position: relative;
+}*/
+.bloco-logos {
+    height: 170px;
+}
+.bloco-logos img {
+    margin-top: 50px;
+}
+.footer h3 {
+    text-align: left;
+}
+.footer {
+    background-image: url('../img/footer.png');
+    color: white;
+}
+.footer-2 {
+    background-image: url('../img/footer2.png');
+    color: #c1c1c1;
+    height: 90px;
+}
+.footer-2 p {
+    padding: 10px;
+    padding-left: inherit;
+}
+.footer p {
+    width: 90%;
+    text-align: left;
+}
+.texto {
+    color: #c0c0c0;
+}
+.texto b {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+.clock {
+    color: #898989;
+}
+.clock:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../img/clock.png');
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    }
+.local:before {
+    content: '';
+    width: 17px;
+    height: 24px;
+    display: inline-block;
+    background-image: url('../img/local.png');
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+.emailico:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../img/email.png');
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+.telefoneico:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../img/fone.png');
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+.redes-sociais2 ul li {
+    margin-left: 25px;
+    display: inline-block;
+    float: left;
+}
+.redes-sociais2 {
+    width: 25%;
+    float: right;
+    margin-top: -4em;
+    margin-right: 2em;
+}
